@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Events - GCT Bhakkar</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Poppins, sans-serif;
+            background: #f4f4f9;
+        }
+
+        .events-grid {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .event-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .event-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .event-image {
+            width: 100%;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .event-content {
+            padding: 18px;
+        }
+
+        .event-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #4a0e95;
+        }
+
+        .event-date {
+            color: #09b8f3;
+            font-weight: bold;
+            margin: 8px 0;
+        }
+
+        .event-description {
+            color: #555;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="events-grid">
+
+        <div class="event-card">
+            <div class="event-image" style="background-image: url('events_pic/badminten.jpg');"></div>
+            <div class="event-content">
+                <div class="event-title">Badminton</div>
+                <div class="event-date">Date: March 23</div>
+                <div class="event-description">Compete with top badminton players in a thrilling tournament.</div>
+            </div>
+        </div>
+
+        <div class="event-card">
+            <div class="event-image" style="background-image: url('');"></div>
+            <div class="event-content">
+                <div class="event-title">TUG OF WAR</div>
+                <div class="event-date">Date: August 20</div>
+                <div class="event-description">A thrilling display of teamwork and determination.</div>
+            </div>
+        </div>
+
+        <div class="event-card">
+            <div class="event-image" style="background-image: url('events_pic/murgh.JPG');"></div>
+            <div class="event-content">
+                <div class="event-title">Cock Fighting</div>
+                <div class="event-date">Date: April 15</div>
+                <div class="event-description">Show your skills in this traditional competitive event.</div>
+            </div>
+        </div>
+
+        <div class="event-card">
+            <div class="event-image" style="background-image: url('events_pic/net.jpg');"></div>
+            <div class="event-content">
+                <div class="event-title">Volleyball</div>
+                <div class="event-date">Date: June 5</div>
+                <div class="event-description">Join our Volleyball league and showcase your skills.</div>
+            </div>
+        </div>
+
+        <div class="event-card">
+            <div class="event-image" style="background-image: url('events_pic/punja.JPG');"></div>
+            <div class="event-content">
+                <div class="event-title">Arm Wrestling</div>
+                <div class="event-date">Date: July 20</div>
+                <div class="event-description">Show your strength in our arm wrestling competition.</div>
+            </div>
+        </div>
+
+        <div class="event-card">
+            <div class="event-image" style="background-image: url('events_pic/tabel.JPG');"></div>
+            <div class="event-content">
+                <div class="event-title">Table Tennis</div>
+                <div class="event-date">Date: August 25</div>
+                <div class="event-description">Annual table tennis tournament for all students.</div>
+            </div>
+        </div>
+
+        <div class="event-card">
+            <div class="event-image" style="background-image: url('events_pic/race.JPG');"></div>
+            <div class="event-content">
+                <div class="event-title">Race</div>
+                <div class="event-date">Date: September 15</div>
+                <div class="event-description">Run, compete, and win exciting prizes!</div>
+            </div>
+        </div>
+
+        <div class="event-card">
+            <div class="event-image" style="background-image: url('events_pic/takeya.JPG');"></div>
+            <div class="event-content">
+                <div class="event-title">Pillow Fighting</div>
+                <div class="event-date">Date: October 10</div>
+                <div class="event-description">Fun and competitive pillow fighting event.</div>
+            </div>
+        </div>
+
+        <div class="event-card">
+            <div class="event-image" style="background-image: url('events_pic/throw.jpg');"></div>
+            <div class="event-content">
+                <div class="event-title">Javelin Throw</div>
+                <div class="event-date">Date: July 20</div>
+                <div class="event-description">Track & field event showcasing student athleticism.</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
